@@ -1,5 +1,4 @@
 os:
   - osx
-  - linux
 language: cpp
 script: mkdir build && cd build && cmake .. && make && make check && sudo make install
