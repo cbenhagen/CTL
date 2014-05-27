@@ -1,3 +1,5 @@
+#TODO: install osx dependencies via homebrew
+
 os:
   - osx
   - linux
