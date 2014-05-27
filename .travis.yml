@@ -17,5 +17,5 @@ before_script:
   - make
   - sudo make install
 
-script: cd $TRAVIS_BUILD_DIR mkdir build && cd build && cmake .. && make && make check && sudo make install
+script: cd $TRAVIS_BUILD_DIR && mkdir build && cd build && cmake .. && make && make check && sudo make install
 
