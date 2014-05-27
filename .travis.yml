@@ -18,3 +18,4 @@ before_script:
   - sudo make install
 
 script: mkdir build && cd build && cmake .. && make && make check && sudo make install
+
